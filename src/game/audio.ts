@@ -39,15 +39,17 @@ export class AudioSystem {
     }
   }
 
-  async startBGM(): Promise<void> {
+async startBGM(): Promise<void> {
     if (this.isPlaying || !this.audioContext) return;
     
     if (this.audioContext.state === 'suspended') {
       await this.audioContext.resume();
     }
     
-    // Create audio element for MP3
-    this.bgmAudio = new Audio('/background-music.mp3');
+    // 🟢 CORREÇÃO: Injeta a URL base do Vite dinamicamente
+    const musicUrl = `${import.meta.env.BASE_URL}background-music.mp3`;
+    this.bgmAudio = new Audio(musicUrl);
+    
     this.bgmAudio.loop = true;
     this.bgmAudio.volume = 0.6;
     
