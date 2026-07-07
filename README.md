@@ -2,6 +2,8 @@
 
 O **CyberNode** é um jogo estratégico baseado na Web com uma temática puramente cyberpunk e de hacking. O objetivo do jogador é invadir e dominar uma infraestrutura de rede simulada, navegando por nós (nodes) e gerenciando recursos para quebrar as defesas do sistema.
 
+[Link - Cybernode](https://jpedro-io.github.io/CyberNodeGame/) 
+
 ---
 
 ## 🎓 Contexto Acadêmico
@@ -16,3 +18,5 @@ O objetivo principal do software é aplicar os conceitos teóricos de **Teoria d
 * **Algoritmos de Busca:** A lógica de geração e validação dos caminhos da rede utiliza os princípios de busca e conectividade em grafos para garantir que o mapa seja sempre desafiador e solucionável.
 
 ---
+
+
